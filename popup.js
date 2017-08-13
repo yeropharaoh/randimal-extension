@@ -1,11 +1,25 @@
-var button = document.getElementById("submit");
+window.onload = function() {
 
-	var max = 10;
-  var min = 1;
+    var imageList = ["img/1.jpg", "img/2.jpg", "img/3.jpg", "img/4.jpg"]
 
-button.addEventListener("click",function(){
+    var button = document.getElementById("submit");
 
-	answer.innerText = Math.floor(Math.random() * (max - min + 1) + min);
-});
-var answer = document.getElementById("output");
-console.log(answer);
+    var random = Math.floor(Math.random() * (3 - 0 + 0) + 0);
+
+    button.addEventListener("click", function() {
+
+        var answer = document.getElementById("img");
+
+        var random = Math.floor(Math.random() * (3 - 0 + 0) + 0);
+
+        console.log(imageList[random]);
+
+        var randomImg = imageList[random];
+
+        console.log(randomImg);
+        answer.setAttribute("src", imageList[random]);
+
+        console.log(answer)
+
+    });
+}
