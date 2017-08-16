@@ -8,7 +8,7 @@ window.onload = function() {
 
         var answer = document.getElementById("img");
 
-        var random = Math.floor(Math.random() * (3 - 0 + 0) + 0);
+        var random = Math.floor(Math.random() * (3 - 0 + 0) + 1);
 
         answer.setAttribute("src", imageList[random]);
 

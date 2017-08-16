@@ -10,6 +10,11 @@ body {
   font-family: "Exo 2", sans-serif;
 }
 
+img {
+    width: 500px;
+    height: 500px;
+  }
+
 .generate {
     /* Remove button styles */
     border: none;
@@ -20,7 +25,8 @@ body {
     /* Make 'clickable' */
     cursor: pointer;
 }
-  
+
+
 .number {
   text-shadow: 0 0 5px #bbb;
   
@@ -53,9 +59,4 @@ body {
     display: inline;
   }
   
-  input {
-    background-color: #efefef;
-    padding: 10px;
-    margin: 5px 15px;
-  }
-}
+
